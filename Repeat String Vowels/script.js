@@ -43,4 +43,4 @@ function longText(str, repeatCount) {
     });
 
     return StrArray.join("");
-}g
+}
