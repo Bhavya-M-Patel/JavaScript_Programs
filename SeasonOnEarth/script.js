@@ -15,7 +15,7 @@ function CheckMonth(Start,End,current){
 }
 
 function getSeason(hemispher, month) {
-    switch(hemispher.toLowerCase()){
+    switch(String(hemispher).toLowerCase()){
         case "n":if (CheckMonth(3,5,month)) return Seasons.Spring;
                  else if (CheckMonth(6,8,month)) return Seasons.Summer;
                  else if (CheckMonth(9,11,month)) return Seasons.Autumn;
